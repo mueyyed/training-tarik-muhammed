@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap" rel="stylesheet">
+    
+    <title>saya</title>
+    <style>
+          body{
+            font-family: "Tajawal", sans-serif;
+    margin: 0;
+  }
+  .header{
+    width: 100%;
+    height: 350px;
+   background-color: red;
+    overflow: hidden;
+    position: relative;
+    border-bottom:#087A79 18px solid  ;
+  }
+
+
+  #header-image{
+    width: 100%;
+    position: relative;
+    bottom: 160px;
+  }
+
+  #cover{
+    opacity: 0.5;
+  width: 100%;
+  height: 100% ;
+  bottom: 0px;
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  
+}
+
+.menu-header{
+  direction: rtl;
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  top: 0;
+ margin-top: 20px;
+
+ 
+}
+
+
+#menu{
+
+  margin-right: 10px;
+}
+
+#menu > .btn{
+   color: white;
+   text-decoration: none;
+   margin-right:30px ;
+   padding: 5px;
+   border-radius: 10px;
+   transform: background 0.3s;
+}
+
+
+#menu > .btn:hover{
+ background-color: rgba(88, 88, 88, 0.5);
+}
+.active{
+  background-color:  #087A79;
+}
+
+
+#main-content{
+  position: relative;
+  width: 100%;
+  top: -270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#img-frame{
+   width: 200px;
+   height: 200px;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color:#087A79;
+   border-radius: 50%;
+   margin: 0 auto;
+   box-shadow: 0px 9px 8px #c7c7c7;
+   transition: box-shadow 0.2s, padding   0.4s;
+}
+
+#img-frame:hover{
+box-shadow: 0px 9px 8px #959595;
+padding: 15px;
+
+}
+
+
+#img-frame > img{
+  height: 100%;
+}
+
+
+
+#centered-content{
+text-align: center;   
+color: white;
+font-size: 29px;
+
+}
+
+#main-body{
+  position: relative;
+  top: -200px;
+}
+
+
+#main-body > #mai-header > h1{
+
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+#main-body > #mai header{
+ text-align: center;
+  font-size: 18px;
+  color: #6b6b6b;
+  text-align: center;
+}
+
+#courses{
+  direction: rtl;
+  display:flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+#features{
+  direction: rtl;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+
+.course>img{
+  height: 100px;
+}
+
+.course{
+  margin: 0 50px;
+ width:300px ;
+ text-align: center;
+ color:#087A79;
+  background-color: rgb(221,221,221);
+}
+
+#feature{
+  margin: 0 50px;
+ width:300px ;
+ text-align: center;
+ color:#087A79;
+  background-color: rgb(221,221,221);
+}
+
+
+#courses-section{
+margin-top: 150px;
+background: rgb(235,235,235);
+padding: 20px 0px;
+direction: rtl;
+}
+
+.dev{
+  width: 100%;
+  position: absolute;
+  top: 2000px;
+  background-color:green ;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding: 20px ;
+
+  
+}
+
+    </style>
+</head>
+<body>
+    <div class="main-header">
+        <div class="header">
+          <img id="header-image" src="bu işte.jpeg" alt="">
+          <div id="cover"></div>
+          <div class="menu-header">
+            <div id="menu">
+          <a class="btn active" href="#">الرئيسئة</a>
+          <a class="btn" href="#">دورات</a>
+          <a class="btn" href="#">مقالت</a>
+          <a class="btn" href="#">ملخصت</a>
+          <a class="btn" href="#">مصادر</a>
+          </div>
+        </div>
+        </div>
+        <div id="main-content">
+          <div id="centered-content">
+            <h1>أكاديمية ترميز</h1>
+            <div id="img-frame">
+              <img src="white-logo.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <div id="main-body">
+      <div style="text-align: center;" id="mai-header">
+        <h1>أكاديمية ترميز لتعليم البرمجة</h1>
+      </div>
+
+      <div id="features">
+        <div id="feature">
+          <h1> <span>✅</span>روس منوعة </h1>
+        </div>
+
+        <div id="feature">
+          <h1>  <span>✅</span>باللغة العربية</h1>
+        </div>
+
+
+
+        <div id="feature">
+          <h1>  <span>✅</span>بجودة عالبة</h1>
+        </div>
+
+      </div>
+    </div>
+    <div  id="courses-section">
+      <h1>دورات تطوبر المواقع</h1>
+      <div  id="courses">
+
+       
+
+          <div class="course">
+            <img src="git-course (1).png" alt="">
+            <div>
+              <h2>سلسلة دروس الGit</h2>
+              <button>مشاهدة</button>
+            </div>
+            
+        </div>
+      </div>
+    </div>
+    <div  style="position: absolute; top: 1245px;; left:950px;"class="course">
+      <img  src="css-course.png" alt="">
+      <div>
+        <h2>سلسلة دروس الcss</h2>
+        <button>مشاهدة</button>
+      </div>
+      
+      <div style="position: absolute; top: 0px;; right:950px;" class="course">
+        <img src="html-course (2).png" alt="">
+        <div>
+          <h2>سلسلة دروس الhtml</h2>
+          <button>مشاهدة</button>
+        </div>
+      </div>
+    </div>
+<div>
+
+  
+  
+  <div class="dev">تم إنشاء هذه الصفحة بتاريخ 21.08.2024</div>
+</div>
+</body>
+</html>
